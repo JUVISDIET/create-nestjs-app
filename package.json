@@ -1,6 +1,6 @@
 {
   "name": "@juvisdiet/create-nestjs-app",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Juvis NestJS 프로젝트 템플릿 생성 CLI",
   "bin": {
     "create-juvis-nestjs-app": "./index.js"
