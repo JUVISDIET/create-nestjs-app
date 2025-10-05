@@ -1,14 +1,10 @@
 {
   "name": "@juvisdiet/create-nestjs-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Juvis NestJS 프로젝트 템플릿 생성 CLI",
   "bin": {
     "create-juvis-nestjs-app": "./index.js"
   },
-  "files": [
-    "index.js",
-    "templates"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/JUVISDIET/create-nestjs-app.git"
