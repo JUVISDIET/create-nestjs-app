@@ -1,6 +1,2 @@
 @juvisdiet:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
-
-# 모든 패키지의 install 스크립트 실행 허용
-enable-pre-post-scripts=true
-scripts-prepend-node-path=true

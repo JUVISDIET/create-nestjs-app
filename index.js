@@ -40,8 +40,7 @@ program
       // template 파일들의 이름 변경
       const filesToRename = [
         { from: 'gitignore.template', to: '.gitignore' },
-        { from: 'npmrc.template', to: '.npmrc' },
-        { from: '.pnpm-build-approvals.template', to: '.pnpm-build-approvals' }
+        { from: 'npmrc.template', to: '.npmrc' }
       ];
 
       for (const file of filesToRename) {
@@ -84,6 +83,8 @@ program
       console.log(`  cd ${name}`);
       console.log('  pnpm install');
       console.log('  pnpm dev\n');
+      console.log('⚠️  pnpm install 시 빌드 스크립트 경고가 나오면:');
+      console.log('  pnpm approve-builds 실행 후 모두 승인하세요.\n');
     } catch (error) {
       console.error('❌ 에러:', error.message);
       process.exit(1);
