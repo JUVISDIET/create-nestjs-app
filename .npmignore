@@ -5,3 +5,8 @@ test-project
 *.log
 .DS_Store
 .changeset
+
+!templates/**/.npmrc
+!templates/**/.gitignore
+!templates/**/.nvmrc
+!templates/**/.prettierrc
