@@ -1,0 +1,30 @@
+{
+  "name": "@juvisdiet/create-nestjs-app",
+  "version": "1.0.0",
+  "description": "Juvis NestJS 프로젝트 템플릿 생성 CLI",
+  "bin": {
+    "create-juvis-nestjs-app": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js test-project",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish"
+  },
+  "keywords": [
+    "nestjs",
+    "cli",
+    "template",
+    "juvis"
+  ],
+  "author": "Juvis",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "fs-extra": "^11.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7"
+  }
+}

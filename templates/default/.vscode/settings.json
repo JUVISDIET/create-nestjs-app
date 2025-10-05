@@ -1,0 +1,20 @@
+{
+  "jest.runMode": "on-demand",
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  "typescript.validate.enable": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+  // ESLint만 활성화
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.sortImports": "never",
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "never",
+    "source.removeUnusedImports": "never"
+  }
+}
