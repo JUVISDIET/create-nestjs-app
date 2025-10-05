@@ -10,10 +10,7 @@
     "url": "https://github.com/JUVISDIET/create-nestjs-app.git"
   },
   "scripts": {
-    "test": "node index.js test-project",
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "changeset publish"
+    "test": "node index.js test-project"
   },
   "keywords": [
     "nestjs",
@@ -28,7 +25,7 @@
     "fs-extra": "^11.0.0",
     "prompts": "^2.4.2"
   },
-  "devDependencies": {
-    "@changesets/cli": "^2.29.7"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
