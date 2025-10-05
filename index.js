@@ -40,7 +40,8 @@ program
       // template 파일들의 이름 변경
       const filesToRename = [
         { from: 'gitignore.template', to: '.gitignore' },
-        { from: 'npmrc.template', to: '.npmrc' }
+        { from: 'npmrc.template', to: '.npmrc' },
+        { from: '.pnpm-build-approvals.template', to: '.pnpm-build-approvals' }
       ];
 
       for (const file of filesToRename) {

@@ -1,8 +1,6 @@
 @juvisdiet:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 
-# 빌드 스크립트 자동 실행 허용
+# 모든 패키지의 install 스크립트 실행 허용
 enable-pre-post-scripts=true
-
-# 모든 패키지의 빌드 스크립트 실행 허용 (주의: 보안 위험 있음)
-ignore-scripts=false
+scripts-prepend-node-path=true
