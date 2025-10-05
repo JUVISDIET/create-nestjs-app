@@ -1,0 +1,7 @@
+.git
+.github
+node_modules
+test-project
+*.log
+.DS_Store
+.changeset

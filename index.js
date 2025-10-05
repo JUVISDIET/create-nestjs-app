@@ -31,7 +31,11 @@ program
 
       console.log(`📦 ${name} 프로젝트를 생성하는 중...`);
 
-      await fs.copy(templatePath, targetPath);
+      await fs.copy(templatePath, targetPath, {
+        filter: (src) => {
+          return true;
+        }
+      });
 
       const pkgPath = path.join(targetPath, 'package.json');
       const pkg = await fs.readJson(pkgPath);
