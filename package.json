@@ -5,6 +5,10 @@
   "bin": {
     "create-juvis-nestjs-app": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JUVISDIET/create-nestjs-app.git"
+  },
   "scripts": {
     "test": "node index.js test-project",
     "changeset": "changeset",
