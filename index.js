@@ -37,6 +37,20 @@ program
         }
       });
 
+      // template 파일들의 이름 변경
+      const filesToRename = [
+        { from: 'gitignore.template', to: '.gitignore' },
+        { from: 'npmrc.template', to: '.npmrc' }
+      ];
+
+      for (const file of filesToRename) {
+        const fromPath = path.join(targetPath, file.from);
+        const toPath = path.join(targetPath, file.to);
+        if (await fs.pathExists(fromPath)) {
+          await fs.rename(fromPath, toPath);
+        }
+      }
+
       const pkgPath = path.join(targetPath, 'package.json');
       const pkg = await fs.readJson(pkgPath);
       pkg.name = name;
