@@ -79,6 +79,7 @@ program
       }
 
       console.log(`\n✅ ${name} 프로젝트가 생성되었습니다!\n`);
+      console.log('📝 .github/CODEOWNERS 파일을 반드시 수정해주세요!\n');
       console.log('다음 명령어를 실행하세요:\n');
       console.log(`  cd ${name}`);
       console.log('  pnpm install');
