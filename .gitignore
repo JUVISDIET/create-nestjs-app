@@ -2,3 +2,10 @@ node_modules/
 test-project/
 .DS_Store
 *.log
+
+# IDE
+.idea/
+*.iml
+
+# Lock files
+package-lock.json
