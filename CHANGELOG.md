@@ -1,5 +1,11 @@
 # @juvisdiet/create-nestjs-app
 
+## 1.1.3
+
+### Patch Changes
+
+- 0b1e901: - publish test 2
+
 ## 1.1.2
 
 ### Patch Changes
