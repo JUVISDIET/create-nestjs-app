@@ -1,5 +1,11 @@
 # @juvisdiet/create-nestjs-app
 
+## 1.1.1
+
+### Patch Changes
+
+- de7e5c2: - core 패키지 최신 버전 업데이트 작업
+
 ## 1.1.0
 
 ### Minor Changes
