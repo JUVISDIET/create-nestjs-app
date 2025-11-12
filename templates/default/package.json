@@ -27,6 +27,7 @@
     "@juvisdiet/storage": "^1.1.7",
     "@juvisdiet/utils": "^1.1.7",
     "@juvisdiet/validation": "^1.1.7",
+    "@juvisdiet/naver-works": "^1.2.0",
     "@nestjs-modules/mailer": "^2.0.2",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
