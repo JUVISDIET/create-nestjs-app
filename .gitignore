@@ -6,6 +6,3 @@ test-project/
 # IDE
 .idea/
 *.iml
-
-# Lock files
-package-lock.json
