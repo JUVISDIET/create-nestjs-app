@@ -37,7 +37,6 @@ jobs:
         uses: changesets/action@v1
         with:
           version: npm run version
-          publish: npm run release
           commit: "chore: release package v${{ steps.package-version.outputs.version }}"
           title: "chore: release package v${{ steps.package-version.outputs.version }}"
         env:
