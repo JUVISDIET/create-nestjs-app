@@ -2,3 +2,4 @@ node_modules/
 test-project/
 .DS_Store
 *.log
+.idea
