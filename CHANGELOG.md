@@ -1,5 +1,11 @@
 # @juvisdiet/create-nestjs-app
 
+## 1.1.2
+
+### Patch Changes
+
+- 8c91fc1: - naver-works 패키지 추가
+
 ## 1.1.1
 
 ### Patch Changes
