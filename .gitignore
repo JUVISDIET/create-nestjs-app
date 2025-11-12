@@ -3,3 +3,4 @@ test-project/
 .DS_Store
 *.log
 .idea
+*.iml
