@@ -8,7 +8,7 @@ const packageJsonPath = path.join(__dirname, '../templates/default/package.json'
 const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
 
 const juvisdietPackages = [
-  'cache', 'database', 'logger', 'server', 'storage', 'utils', 'validation'
+  'cache', 'database', 'logger', 'server', 'storage', 'utils', 'validation', 'naver-works'
 ];
 
 console.log('🔍 @juvisdiet 패키지 최신 버전 확인 중...');
