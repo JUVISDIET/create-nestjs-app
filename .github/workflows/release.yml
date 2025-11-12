@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   packages: write
+  pull-requests: write
 
 jobs:
   release:
@@ -28,18 +29,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Get package version
-        id: package-version
-        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
-
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
         with:
           version: npm run version
           publish: npm run release
-          commit: "chore: release package v${{ steps.package-version.outputs.version }}"
-          title: "chore: release package v${{ steps.package-version.outputs.version }}"
+          publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
