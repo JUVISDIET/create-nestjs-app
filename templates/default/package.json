@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@juvisdiet/cache": "^1.2.0",
-    "@juvisdiet/database": "^1.1.9",
+    "@juvisdiet/database": "^1.1.11",
     "@juvisdiet/logger": "^1.3.6",
     "@juvisdiet/server": "^1.3.6",
     "@juvisdiet/storage": "^1.1.7",
