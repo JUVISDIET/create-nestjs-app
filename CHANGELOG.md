@@ -1,5 +1,11 @@
 # @juvisdiet/create-nestjs-app
 
+## 1.1.4
+
+### Patch Changes
+
+- e2a3f22: - database 패키지 버전 증가
+
 ## 1.1.3
 
 ### Patch Changes
